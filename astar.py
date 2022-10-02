@@ -31,6 +31,7 @@ matrix = np.matrix([[0., 0., 0., 0., 0.], [0., 0., 1., 0., 0.], [0., 1., 1., 0.,
 
 
 def astar(maze, start, end):
+    ## TODO: Implement A start algorithm
     return [(0, 2),(0, 1), (1, 1), (1, 0), (2, 0), (3, 0), (4, 0), (4, 1), (4, 2), (4, 3)]
 
 def verify(maze, start, end, path):

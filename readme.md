@@ -7,6 +7,6 @@ pip install pyrplidar
 ### trouver le port
 
 ```sh
-ls /dev | grep /dev/tty.usb //pour mac
-ls /dev | grep /dev/ttyACM //pour linux
+ls /dev/tty* | grep tty.usb #pour mac
+ls /dev/tty* | grep ttyACM #pour linux
 ```

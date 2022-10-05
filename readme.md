@@ -1,7 +1,7 @@
 ## Utiliser le lidar
 
 ```sh
-pip install pyrplidar
+ pip install rplidar
 ```
 
 ### trouver le port
